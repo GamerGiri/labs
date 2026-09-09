@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSE472 Student Workshop Registration</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <p class="eyebrow">CSE472 • Web and Internet Programming Lab</p>
+      <h1>Student Workshop Registration System</h1>
+      <p class="subtitle">Web Development Basics Workshop</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card workshop-info">
+      <h2>Workshop Information</h2>
+      <div class="details">
+        <div><strong>Topic</strong><span>Web Development Basics</span></div>
+        <div><strong>Date</strong><span>September 15, 2026</span></div>
+        <div><strong>Time</strong><span>9:00 AM – 12:00 PM</span></div>
+        <div><strong>Venue</strong><span>Computer Lab 2</span></div>
+        <div><strong>Capacity</strong><span>30 students</span></div>
+      </div>
+
+      <div class="actions">
+        <button type="button" onclick="checkRegistration()">Check Registration Status</button>
+        <button type="button" onclick="checkSeats()">Check Seat Availability</button>
+        <button type="button" onclick="showVenue()">Show Venue</button>
+        <button type="button" onclick="grd()">Add Grades (Experimental)</button>
+      </div>
+      <p id="registrationStatus" class="message">Click the button to check the status.</p>
+      <p id="seatMessage" class="message">Seat information will appear here.</p>
+      <p id="venueMessage" class="message">Venue information will appear here.</p>
+      <p id="grdMsg" class="message">Grade information will appear here.</p>
+    </section>
+
+    <section class="card registration-form">
+      <h2>Registration</h2>
+      <form onsubmit="return false;">
+        <label for="studentName">Full Name</label>
+        <input type="text" id="studentName" name="studentName" placeholder="Enter your full name" required>
+        <button type="button" onclick="showGreeting()">Show Greeting</button>
+        <p id="greetingMessage" class="message"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">CSE472 Lab 03 • JavaScript Foundations and Simple Interaction</div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
