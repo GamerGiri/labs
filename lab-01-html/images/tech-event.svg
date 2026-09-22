@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" role="img" aria-label="Students at a technology event">
+<defs>
+  <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#dff4ff"/><stop offset="1" stop-color="#edf0ff"/></linearGradient>
+  <linearGradient id="screen" x1="0" x2="1"><stop stop-color="#1769e0"/><stop offset="1" stop-color="#14b8c4"/></linearGradient>
+</defs>
+<rect width="800" height="560" rx="34" fill="url(#bg)"/>
+<circle cx="670" cy="100" r="72" fill="#fff" opacity=".65"/>
+<rect x="80" y="75" width="430" height="270" rx="18" fill="#10233f"/>
+<rect x="100" y="95" width="390" height="220" rx="10" fill="url(#screen)"/>
+<text x="125" y="155" fill="#fff" font-size="28" font-family="Arial" font-weight="700">SEU TECH</text>
+<text x="125" y="195" fill="#fff" font-size="45" font-family="Arial" font-weight="800">EVENT</text>
+<rect x="125" y="225" width="220" height="14" rx="7" fill="#fff" opacity=".8"/>
+<rect x="125" y="252" width="170" height="14" rx="7" fill="#fff" opacity=".55"/>
+<path d="M45 370h520l-55 38H100z" fill="#10233f"/>
+<rect x="170" y="408" width="275" height="13" rx="6" fill="#29415f"/>
+<g fill="#10233f">
+ <circle cx="160" cy="465" r="36"/><path d="M105 540c5-64 28-88 55-88s50 24 55 88z"/>
+ <circle cx="340" cy="455" r="32"/><path d="M292 540c4-57 24-80 48-80s44 23 48 80z"/>
+ <circle cx="500" cy="475" r="34"/><path d="M448 540c5-60 26-84 52-84s47 24 52 84z"/>
+</g>
+<g fill="#1769e0"><rect x="105" y="505" width="110" height="25" rx="12"/><rect x="285" y="500" width="110" height="25" rx="12"/><rect x="448" y="512" width="105" height="25" rx="12"/></g>
+<circle cx="640" cy="300" r="62" fill="#14b8c4" opacity=".9"/>
+<path d="M610 300h60M640 270v60" stroke="#fff" stroke-width="12" stroke-linecap="round"/>
+</svg>
