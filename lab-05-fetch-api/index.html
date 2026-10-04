@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Workshop Registration System</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Student Workshop Registration System</h1>
+    <p>CSE472 | Lab 05: HTTP, Fetch and Simple API Use</p>
+    <p class="student-id">Student ID: 2023200000732</p>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>Workshop Information</h2>
+      <p>Click the button to load workshop information from a JSON file.</p>
+      <button type="button" onclick="loadWorkshop()">Load Workshop Details</button>
+
+      <div class="details">
+        <p><strong>Title:</strong> <span id="workshopTitle">Not loaded</span></p>
+        <p><strong>Date:</strong> <span id="workshopDate">Not loaded</span></p>
+        <p><strong>Venue:</strong> <span id="workshopVenue">Not loaded</span></p>
+        <p><strong>Seats:</strong> <span id="workshopSeats">Not loaded</span></p>
+        <p><strong>Duration:</strong> <span id="workshopDuration">Not loaded</span></p>
+      </div>
+
+      <p id="loadMessage" class="message"></p>
+    </section>
+
+    <section class="card">
+      <h2>Public API Practice</h2>
+      <p>Load one sample user from JSONPlaceholder using fetch().</p>
+      <button type="button" onclick="loadSampleUser()">Load Sample User</button>
+      <p id="apiUser" class="api-result">No API data loaded yet.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>CSE472 Web and Internet Programming Lab | Lab 05</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

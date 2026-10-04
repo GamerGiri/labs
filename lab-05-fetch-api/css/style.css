@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f7fb;
+  color: #1f2937;
+}
+
+header {
+  background: #12324a;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+header h1 {
+  margin: 0 0 10px;
+  font-size: 30px;
+}
+
+header p {
+  margin: 6px 0;
+}
+
+.student-id {
+  font-weight: bold;
+}
+
+main {
+  width: min(900px, 92%);
+  margin: 30px auto;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 24px;
+  margin-bottom: 22px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+}
+
+.card h2 {
+  margin-top: 0;
+  color: #12324a;
+}
+
+button {
+  border: 0;
+  border-radius: 7px;
+  padding: 11px 18px;
+  background: #1769aa;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+button:hover {
+  background: #0f568c;
+}
+
+.details {
+  margin-top: 20px;
+  padding: 15px;
+  border-left: 4px solid #1769aa;
+  background: #f7fafc;
+}
+
+.message {
+  font-weight: bold;
+  min-height: 22px;
+}
+
+.api-result {
+  margin-top: 18px;
+  padding: 14px;
+  background: #f7fafc;
+  border-radius: 7px;
+}
+
+footer {
+  text-align: center;
+  color: #6b7280;
+  padding: 20px;
+}
